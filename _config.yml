@@ -1,0 +1,16 @@
+# Site settings
+title: 2440 Festival
+email: contact@2440-festival.fr
+description: "Welcome to year 2440"
+baseurl: ""
+url: "http://www.2440-festival.fr"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Collections
+collections:
+    - artists_d1
+    - artists_d2
+    - artists_d3
