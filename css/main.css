@@ -6,3 +6,11 @@ body {
     text-align: center;
     padding: 25px 0;
 }
+
+.stage-1 {
+    background-color: #ffeeab;
+}
+
+.stage-2 {
+    background-color: #abeaff;
+}

@@ -11,6 +11,5 @@ permalink: pretty
 
 # Collections
 collections:
-    - artists_d1
-    - artists_d2
-    - artists_d3
+    artists:
+        output: true

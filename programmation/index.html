@@ -1,55 +1,39 @@
 ---
 layout: default
 title: Programmation
-anchors:
-    -
-        name: day1
-        label: Vendredi 3 Juillet
-    -
-        name: day2
-        label: Samedi 4 Juillet
-    -
-        name: day3
-        label: Dimanche 5 Juillet
 ---
+{% for day in site.artists | group_by: "date" %}
 
-<div class="row">
-    <h2><a name="day1">Vendredi 3 Juillet</a></h2>
-</div>
+    <div class="row">
+        <h2>{{ day.name }}</h2>
+    </div>
 
-<div class="row">
-    {% for artist in site.artists_d1 %}
-        <div class="col-md-4 artist">
-            <a href="/artists/{{ artist.name }}">
-            <img src="http://placehold.it/140x140" class="img-circle" /><br />
-            {{ artist.name }}
-            </a>
-        </div>
-    {% endfor %}
-</div>
+    <div class="row">
+        {% for artist in day.items %}
+            <div class="col-md-4 artist stage-{{ artist.stage }}">
+                <a href="{{ artist.url }}">
+                <img src="http://placehold.it/140x140" class="img-circle" /><br />
+                {{ artist.name }}
+                </a>
+            </div>
+        {% endfor %}
+    </div>
 
-<div class="row">
-    <h2><a name="day2">Samedi 4 Juillet</a></h2>
-</div>
+{% endfor %}
 
-<div class="row">
-    {% for artist in site.artists_d2 %}
-        <div class="col-md-4 artist">
-            <img src="http://placehold.it/140x140" class="img-circle" /><br />
-            {{ artist.name }}
-        </div>
-    {% endfor %}
-</div>
-
-<div class="row">
-    <h2><a name="day3">Dimanche 5 Juillet</a></h2>
-</div>
-
-<div class="row">
-    {% for artist in site.artists_d2 %}
-        <div class="col-md-4 artist">
-            <img src="http://placehold.it/140x140" class="img-circle" /><br />
-            {{ artist.name }}
-        </div>
-    {% endfor %}
-</div>
+    <div class="row">
+        <span class="stage-1">Scène 1</span><br />
+<span class="stage-2">Scène 2</span>
+    </div>
+    <div class="row">
+        {% for artist in site.artists %}
+            <div class="col-md-4 artist ">
+                <span class="stage-{{ artist.stage }}">
+                    <a href="{{ artist.url }}">
+                    <img src="http://placehold.it/140x140" class="img-circle" /><br />
+                    {{ artist.name }}
+                    </a>
+                </span>
+            </div>
+        {% endfor %}
+    </div>
