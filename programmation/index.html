@@ -2,7 +2,14 @@
 layout: default
 title: Programmation
 ---
-{% for day in site.artists | group_by: "date" %}
+
+<div class="row">
+    <span class="stage-1">Scène 1</span><br />
+    <span class="stage-2">Scène 2</span>
+</div>
+
+{% assign days = site.artists | sort: "hour" | group_by: "date" %}
+{% for day in days %}
 
     <div class="row">
         <h2>{{ day.name }}</h2>
@@ -20,20 +27,3 @@ title: Programmation
     </div>
 
 {% endfor %}
-
-    <div class="row">
-        <span class="stage-1">Scène 1</span><br />
-<span class="stage-2">Scène 2</span>
-    </div>
-    <div class="row">
-        {% for artist in site.artists %}
-            <div class="col-md-4 artist ">
-                <span class="stage-{{ artist.stage }}">
-                    <a href="{{ artist.url }}">
-                    <img src="http://placehold.it/140x140" class="img-circle" /><br />
-                    {{ artist.name }}
-                    </a>
-                </span>
-            </div>
-        {% endfor %}
-    </div>

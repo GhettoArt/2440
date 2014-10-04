@@ -25,9 +25,10 @@ layout: default
     </div>
 </div>
 
+{% assign same_day_artists = site.artists | where: "date", page.date %}
 <div class="row">
-    {% for artist in site.artists %}
-        {% if artist.date == page.date and artist.name != page.name %}
+    {% for artist in same_day_artists %}
+        {% if artist.name != page.name %}
             <div class="col-md-1 artist">
                 <a href="{{ artist.url }}">
                 <img src="http://placehold.it/70x70" class="img-circle" /><br />

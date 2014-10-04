@@ -3,7 +3,7 @@ layout: artist
 name: Usher
 genre: Trap des Balkans
 date: Samedi 16 Mai
-hour: "19:00"
+hour: "23:00"
 stage: 2
 ---
 
