@@ -1,5 +1,16 @@
-body {
-    padding-top: 70px;
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Dekar', 'sans-serif';
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 .artist {
@@ -7,10 +18,111 @@ body {
     padding: 25px 0;
 }
 
-.stage-1 {
-    background-color: #ffeeab;
+/** HOME */
+#home {
+    background: url(../images/home.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    padding-top: 100px;
 }
 
-.stage-2 {
-    background-color: #abeaff;
+#home h1 {
+    font-size: 5em;
+    text-shadow: 0 0 5px #000;
+    color: #fff;
+}
+
+#home h2 {
+    font-size: 3em;
+    text-shadow: 0 0 5px #000;
+    color: #fff;
+}
+
+.down {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.down a {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 0 0 5px #000;
+}
+
+.down a:hover {
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+/** PROG */
+#prog {
+    background: url(../images/prog.jpg) no-repeat center center fixed;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #ffffff;
+}
+
+#prog a {
+    color: #ffffff;
+}
+
+#prog a:hover {
+    color: #cccccc;
+}
+
+#prog article, #prog article a {
+    color: #000000;
+}
+
+#durable {
+    background: url(../images/durable.jpg) no-repeat center right;
+    height: 400px;
+}
+
+ul.durable {
+    font-size: 1.5em;
+}
+
+ul.durable li {
+    padding: 15px 0;
+}
+
+/** ACCESS */
+#access iframe {
+    margin-bottom: -7px;
+}
+
+footer {
+    padding: 20px 0;
+    background-color: #111;
+}
+
+footer a {
+    color: #eeeeee;
+}
+footer .fa-inverse {
+    color: #111111;
+}
+
+footer a:hover {
+    color: #ccc;
+}
+
+footer ul.social li {
+    display: inline-block;
 }

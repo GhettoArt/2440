@@ -1,5 +1,4 @@
 ---
-layout: artist
 name: Jeanne Chéral
 genre: Electrash
 date: Samedi 16 Mai

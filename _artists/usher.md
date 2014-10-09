@@ -1,5 +1,4 @@
 ---
-layout: artist
 name: Usher
 genre: Trap des Balkans
 date: Samedi 16 Mai

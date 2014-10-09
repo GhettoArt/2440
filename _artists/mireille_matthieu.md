@@ -1,5 +1,4 @@
 ---
-layout: artist
 name: Mireille Matthieu
 genre: Caricature
 date: Vendredi 15 Mai

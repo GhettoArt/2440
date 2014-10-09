@@ -1,5 +1,4 @@
 ---
-layout: artist
 name: Jacques Brel
 genre: Chansonnier
 date: Vendredi 15 Mai

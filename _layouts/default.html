@@ -10,20 +10,27 @@
         <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
         <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="{{ "/css/dekar.css" | prepend: site.baseurl }}">
         <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     </head>
 
     <body>
 
-        <div class="container">
-            {% include header.html %}
-
-            {{ content }}
-
-            {% include footer.html %}
-        </div>
+        {% include introduction.html %}
+        {% include programmation.html %}
+        {% include access.html %}
+        {% include durable.html %}
+        {% include footer.html %}
 
         <script type="text/javascript" src="{{ "/js/jquery.min.js" | prepend: site.baseurl }}"></script>
         <script type="text/javascript" src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
+        <script type="text/javascript" src="{{ "/js/bind-polyfill.min.js" | prepend: site.baseurl }}"></script>
+        <script type="text/javascript" src="{{ "/js/smooth-scroll.min.js" | prepend: site.baseurl }}"></script>
+        <script type="text/javascript" charset="utf-8">
+            $(function(){
+                smoothScroll.init();
+            });
+        </script>
     </body>
 </html>

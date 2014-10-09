@@ -1,5 +1,4 @@
 ---
-layout: artist
 name: Nestor Burma
 genre: Enquêteur Fugace
 date: Vendredi 15 Mai

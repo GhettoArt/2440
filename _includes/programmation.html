@@ -1,0 +1,47 @@
+<div id="prog">
+    <div class="container">
+        {% assign days = site.artists | sort: "hour" | group_by: "date" %}
+        {% for day in days %}
+
+        <h2>{{ day.name }}</h2>
+
+        <div class="row">
+            {% for artist in day.items %}
+
+            <div class="col-md-3 artist">
+                <a href="#{{ artist.name | slugify }}" data-toggle="modal">
+                    <img src="http://placehold.it/100x100" /><br />
+                    {{ artist.name }}
+                </a>
+            </div>
+
+            <article id="{{ artist.name | slugify }}" class="modal fade" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="http://placehold.it/200x200" />
+                                </div>
+                                <div class="col-md-9">
+                                    <h2>{{ artist.name }}</h2>
+                                    <h3>{{ artist.genre }}</h3>
+                                    <h3>{{ artist.date }} {{ artist.hour }}</h3>
+                                    <h3>Stage {{ artist.stage }}</h3>
+                                </div>
+                            </div>
+                            {{ artist.content}}
+                            <p align="center">
+                                <a href="#" data-dismiss="modal">&lt;Fermer&gt;</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            {% endfor %}
+        </div>
+
+        {% endfor %}
+    </div>
+</div>
