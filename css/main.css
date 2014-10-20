@@ -126,3 +126,15 @@ footer a:hover {
 footer ul.social li {
     display: inline-block;
 }
+
+.ticket .fa-stack-2x {
+    transform: rotate(45deg);
+}
+.ticket .fa-stack-1x {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+#tickets h2 {
+    padding: 40px 0;
+}

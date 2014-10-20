@@ -9,10 +9,10 @@
         <meta name="description" content="{{ site.description }}">
         <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-        <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
+        <link rel="stylesheet" href="{{ "css/bootstrap.min.css" | prepend: site.baseurl }}">
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="{{ "/css/dekar.css" | prepend: site.baseurl }}">
-        <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+        <link rel="stylesheet" href="{{ "css/dekar.css" | prepend: site.baseurl }}">
+        <link rel="stylesheet" href="{{ "css/main.css" | prepend: site.baseurl }}">
     </head>
 
     <body>
@@ -20,17 +20,35 @@
         {% include introduction.html %}
         {% include programmation.html %}
         {% include access.html %}
+        {% include tickets.html %}
         {% include durable.html %}
         {% include footer.html %}
 
-        <script type="text/javascript" src="{{ "/js/jquery.min.js" | prepend: site.baseurl }}"></script>
-        <script type="text/javascript" src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
-        <script type="text/javascript" src="{{ "/js/bind-polyfill.min.js" | prepend: site.baseurl }}"></script>
-        <script type="text/javascript" src="{{ "/js/smooth-scroll.min.js" | prepend: site.baseurl }}"></script>
+        <script type="text/javascript" src="{{ "js/jquery.min.js" | prepend: site.baseurl }}"></script>
+        <script type="text/javascript" src="{{ "js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
+        <script type="text/javascript" src="{{ "js/bind-polyfill.min.js" | prepend: site.baseurl }}"></script>
+        <script type="text/javascript" src="{{ "js/smooth-scroll.min.js" | prepend: site.baseurl }}"></script>
+        <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyAL-NFzG50HE8dM9dJQBD1eLP5-7dEyUoo"></script>
         <script type="text/javascript" charset="utf-8">
             $(function(){
                 smoothScroll.init();
             });
+
+            var initMap = function() {
+                var myLatlng = new google.maps.LatLng(47.202439, -1.511616);
+                var mapOptions = {
+                    center: myLatlng,
+                    scrollwheel: false,
+                    zoom: 14
+                };
+                var map = new google.maps.Map($('#access').get(0), mapOptions);
+                new google.maps.Marker({
+                    position: myLatlng,
+                    map: map,
+                    animation: google.maps.Animation.DROP
+                });
+            };
+            google.maps.event.addDomListener(window, 'load', initMap);
         </script>
     </body>
 </html>
