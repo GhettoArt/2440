@@ -1,0 +1,13 @@
+---
+---
+[
+    {% for artist in site.artists %}
+        {
+            name: "{{artist.name}}",
+            genre: "{{artist.genre}}",
+            date: "{{artist.date}}",
+            hour: "{{artist.hour}}",
+            stage: "{{artist.stage}}"
+        }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+]
