@@ -2,6 +2,7 @@
 ---
 parseArtists([ {% for artist in site.artists %}
         {
+            "id": "{{ forloop.index }}",
             "name": "{{ artist.name }}",
             "genre": "{{ artist.genre }}",
             "date": "{{ artist.date }}",
