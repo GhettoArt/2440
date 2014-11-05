@@ -47,6 +47,17 @@
                     map: map,
                     animation: google.maps.Animation.DROP
                 });
+
+                // Map styling
+                var styles = [
+                    {
+                        stylers: [
+                            { hue: "#7e551f" },
+                            { saturation: -20 }
+                        ]
+                    }
+                ];
+                map.setOptions({styles: styles});
             };
             google.maps.event.addDomListener(window, 'load', initMap);
         </script>
