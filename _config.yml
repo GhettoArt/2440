@@ -1,9 +1,10 @@
 # Site settings
-title: 2440 Festival
+title: "2440 Festival"
 email: contact@2440-festival.fr
-description: "Welcome to year 2440"
+description: "Festival de Musiques Électroniques et d'Arts Numériques"
+open_graph.image: "http://www.2440.fr/images/social.png"
 baseurl: ""
-url: "http://www.2440-festival.fr"
+url: "http://www.2440.fr"
 
 # Build settings
 markdown: kramdown
