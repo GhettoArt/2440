@@ -20,7 +20,7 @@ a:hover {
 
 /** HOME */
 #home {
-    background: url(../images/home.jpg) no-repeat center center fixed;
+    background: url(../images/home.png) no-repeat center center fixed;
     display: table;
     height: 100%;
     position: relative;
@@ -30,19 +30,28 @@ a:hover {
     -o-background-size: cover;
     background-size: cover;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 #home h1 {
     font-size: 5em;
-    text-shadow: 0 0 5px #000;
+    text-shadow: 0 0 10px #000;
     color: #fff;
 }
 
 #home h2 {
     font-size: 3em;
-    text-shadow: 0 0 5px #000;
+    text-shadow: 0 0 10px #000;
     color: #fff;
+}
+
+#home .encart {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    margin: 0 100px;
+    font-size: 1.3em;
+    opacity: 0.7;
 }
 
 .down {
@@ -67,7 +76,7 @@ a:hover {
 
 /** PROG */
 #prog {
-    background: url(../images/prog.jpg) no-repeat center center fixed;
+    background: url(../images/prog.png) no-repeat center center fixed;
     position: relative;
     width: 100%;
     -webkit-background-size: cover;
