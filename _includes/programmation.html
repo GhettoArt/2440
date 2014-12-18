@@ -10,7 +10,7 @@
 
             <div class="col-md-3 artist">
                 <a href="#{{ artist.name | slugify }}" data-toggle="modal">
-                    <img src="http://placehold.it/100x100" /><br />
+                    <img src="/images/artists/{{ artist.name | slugify }}.mini.jpg" alt="{{ artist.name }}" /><br />
                     {{ artist.name }}
                 </a>
             </div>
@@ -21,13 +21,12 @@
                         <div class="modal-header">
                             <div class="row">
                                 <div class="col-md-3">
-                                    <img src="http://placehold.it/200x200" />
+                                    <img src="/images/artists/{{ artist.name | slugify }}.jpg" alt="{{ artist.name }}" />
                                 </div>
                                 <div class="col-md-9">
                                     <h2>{{ artist.name }}</h2>
                                     <h3>{{ artist.genre }}</h3>
                                     <h3>{{ artist.date }} {{ artist.hour }}</h3>
-                                    <h3>Stage {{ artist.stage }}</h3>
                                 </div>
                             </div>
                             {{ artist.content}}
