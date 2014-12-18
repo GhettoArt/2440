@@ -1,5 +1,5 @@
 ---
-name: Al'Tarba
+name: Al'Tarba & DJ Nix'on
 genre:
 date:
 hour:
