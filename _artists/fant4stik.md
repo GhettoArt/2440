@@ -1,6 +1,6 @@
 ---
 name: FANT4STIK
-genre:
+genres: Hardtek Music & more
 date:
 hour:
 www: https://soundcloud.com/fant4stik

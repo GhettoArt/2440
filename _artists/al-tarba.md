@@ -1,6 +1,6 @@
 ---
 name: Al'Tarba & DJ Nix'on
-genre:
+genres: Hip-hop / Abstract / Electronic
 date:
 hour:
 www: https://soundcloud.com/altarba

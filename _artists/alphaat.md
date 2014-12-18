@@ -1,6 +1,6 @@
 ---
 name: Alphaat
-genre:
+genres: Dark Techno
 date:
 hour:
 www: https://soundcloud.com/alphaat
