@@ -10,7 +10,7 @@
 
             <div class="col-md-3 artist">
                 <a href="#{{ artist.name | slugify }}" data-toggle="modal">
-                    <img src="/images/artists/{{ artist.name | slugify }}.mini.jpg" alt="{{ artist.name }}" /><br />
+                    <img src="images/artists/{{ artist.name | slugify }}.mini.jpg" alt="{{ artist.name }}" /><br />
                     {{ artist.name }}
                 </a>
             </div>
@@ -21,7 +21,7 @@
                         <div class="modal-header">
                             <div class="row">
                                 <div class="col-md-3">
-                                    <img src="/images/artists/{{ artist.name | slugify }}.jpg" alt="{{ artist.name }}" />
+                                    <img src="images/artists/{{ artist.name | slugify }}.jpg" alt="{{ artist.name }}" />
                                 </div>
                                 <div class="col-md-9">
                                     <h2>{{ artist.name }}</h2>
