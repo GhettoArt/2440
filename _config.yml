@@ -12,5 +12,4 @@ permalink: pretty
 
 # Collections
 collections:
-    artists:
-        output: true
+    - artists
