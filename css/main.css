@@ -39,13 +39,13 @@ a:hover, a:focus {
 
 #home h1 {
     font-size: 5em;
-    text-shadow: 0 0 10px #000;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0 10px #000;
     color: #fff;
 }
 
 #home h2 {
-    font-size: 3em;
-    text-shadow: 0 0 10px #000;
+    font-size: 4em;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0 10px #000;
     color: #fff;
 }
 
@@ -80,7 +80,7 @@ a:hover, a:focus {
     font-size: 2em;
     font-weight: bold;
     color: #ffffff;
-    text-shadow: 0 0 5px #000;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0 5px #000;
 }
 
 .down a:hover {
@@ -110,6 +110,12 @@ a:hover, a:focus {
 
 #prog article, #prog article a {
     color: #000000;
+}
+
+#prog article .close {
+    position: absolute;
+    right: 7px;
+    top: 5px;
 }
 
 #durable {
@@ -164,4 +170,42 @@ footer ul.social li {
 
 .christmas {
     color: #cc0000;
+}
+
+/** RESPONSIVE */
+
+/** Ipad 3/4 */
+@media screen and (max-width: 1024px) {
+    #home {
+        padding-top: 0;
+    }
+    #home h1 {
+        font-size: 4em;
+    }
+}
+/** Nexus 7 */
+@media screen and (max-width: 966px) {
+    #home h1 {
+        font-size: 3em;
+    }
+    #home h2 {
+        font-size: 2em;
+    }
+    #home .down a {
+        font-size: 1em;
+    }
+}
+@media screen and (max-width: 800px) {
+    #home .logo {
+        width: 330px;
+    }
+    #home {
+        padding-top: 50px;
+    }
+    #home h1 {
+        font-size: 2em;
+    }
+    #home h2 {
+        font-size: 2em;
+    }
 }

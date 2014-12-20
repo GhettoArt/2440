@@ -18,7 +18,8 @@
             <article id="{{ artist.name | slugify }}" class="modal fade" tabindex="-1" role="dialog">
                 <div class="modal-dialog modal-lg">
                     <div class="modal-content">
-                        <div class="modal-header">
+                        <div class="modal-body">
+                            <a class="close" href="#" data-dismiss="modal">&times;</a>
                             <div class="row">
                                 <div class="col-md-3">
                                     <img src="images/artists/{{ artist.name | slugify }}.jpg" alt="{{ artist.name }}" />
@@ -30,10 +31,7 @@
                                     <h5>www: <a href="{{ artist.www }}" target="_blank">{{ artist.www }}</a></h5>
                                 </div>
                             </div>
-                            {{ artist.content}}
-                            <p align="center">
-                                <a href="#" data-dismiss="modal">&lt;Fermer&gt;</a>
-                            </p>
+                            <p>{{ artist.content}}</p>
                         </div>
                     </div>
                 </div>
