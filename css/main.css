@@ -132,8 +132,8 @@ ul.durable li {
 }
 
 /** ACCESS */
-#access iframe {
-    margin-bottom: -7px;
+#access .map {
+    height: 300px;
 }
 
 footer {

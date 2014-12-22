@@ -24,6 +24,7 @@
 
         {% include introduction.html %}
         {% include programmation.html %}
+        {% include access.html %}
         {% include tickets.html %}
         {% include footer.html %}
 
@@ -31,7 +32,7 @@
         <script type="text/javascript" src="{{ "js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
         <script type="text/javascript" src="{{ "js/bind-polyfill.min.js" | prepend: site.baseurl }}"></script>
         <script type="text/javascript" src="{{ "js/smooth-scroll.min.js" | prepend: site.baseurl }}"></script>
-        <!--<script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyAL-NFzG50HE8dM9dJQBD1eLP5-7dEyUoo"></script>-->
+        <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyAL-NFzG50HE8dM9dJQBD1eLP5-7dEyUoo"></script>
         <script type="text/javascript" charset="utf-8">
             $(function(){
                 smoothScroll.init();
@@ -45,15 +46,14 @@
             ga('create', 'UA-13080092-2', 'auto');
             ga('send', 'pageview');
 
-            /**
             var initMap = function() {
-                var myLatlng = new google.maps.LatLng(47.202439, -1.511616);
+                var myLatlng = new google.maps.LatLng(47.1814,-1.572247);
                 var mapOptions = {
                     center: myLatlng,
                     scrollwheel: false,
                     zoom: 14
                 };
-                var map = new google.maps.Map($('#access').get(0), mapOptions);
+                var map = new google.maps.Map($('#access .map').get(0), mapOptions);
                 new google.maps.Marker({
                     position: myLatlng,
                     map: map,
@@ -72,7 +72,6 @@
                 map.setOptions({styles: styles});
             };
             google.maps.event.addDomListener(window, 'load', initMap);
-            */
         </script>
     </body>
 </html>
