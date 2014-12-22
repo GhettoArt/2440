@@ -24,7 +24,7 @@ a:hover, a:focus {
 
 /** HOME */
 #home {
-    background: url(../images/home.png) no-repeat center center fixed;
+    background: url(../images/home.jpg) no-repeat center center fixed;
     display: table;
     height: 100%;
     position: relative;
