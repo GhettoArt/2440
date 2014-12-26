@@ -9,7 +9,7 @@
         <div class="row">
             {% for artist in day.items %}
 
-            <div class="col-md-3 artist">
+            <div class="col-sm-3 col-md-3 artist">
                 <a href="#{{ artist.name | slugify }}" data-toggle="modal">
                     <img src="images/artists/{{ artist.name | slugify }}.mini.jpg" alt="{{ artist.name }}" /><br />
                     {{ artist.name }}
