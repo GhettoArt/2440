@@ -115,12 +115,6 @@ a:hover, a:focus {
     color: #000000;
 }
 
-#prog article .close {
-    position: absolute;
-    right: 7px;
-    top: 5px;
-}
-
 #durable {
     background: url(../images/durable.jpg) no-repeat center right;
     height: 400px;
