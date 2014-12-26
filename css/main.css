@@ -16,6 +16,9 @@ a:hover, a:focus {
     text-decoration: none;
     color: #333;
 }
+.btn-x-lg {
+    font-size: 25px;
+}
 
 .artist {
     text-align: center;
