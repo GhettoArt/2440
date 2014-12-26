@@ -1,10 +1,12 @@
 <div id="prog">
     <div class="container">
         <h1>Programmation</h1>
-        {% assign days = site.artists | sort: "hour" | group_by: "date" %}
+        {% assign days = site.artists | sort: "hour", "first" | sort: "date", "first" | group_by: "date" %}
         {% for day in days %}
 
-        <h2>{{ day.name }}</h2>
+        {% if day.name != "" %}
+        <h2>{{ day.name|date_to_long_string|replace: "May", "mai" }}</h2>
+        {% endif %}
 
         <div class="row">
             {% for artist in day.items %}
