@@ -1,6 +1,6 @@
 ---
 name: FANT4STIK
-genres: Hardtek Music & more
+genres: Happy Hartek
 date:
 hour:
 www:

@@ -1,6 +1,6 @@
 ---
 name: Budju
-genres: Global Bass / Uk / Bmore / Dutch
+genres: Global Bass
 date:
 hour:
 www:

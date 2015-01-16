@@ -1,6 +1,6 @@
 ---
 name: AlgoRythmiK
-genres:
+genres: Swing Electro Dubstep
 date:
 hour:
 www:

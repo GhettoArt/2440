@@ -1,6 +1,6 @@
 ---
 name: Alphaat
-genres: Dark Techno
+genres: Techno
 date:
 hour:
 www:

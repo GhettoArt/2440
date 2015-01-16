@@ -1,6 +1,6 @@
 ---
 name: Al'Tarba & DJ Nix'on
-genres: Hip-hop / Abstract / Electronic
+genres: Abstract Electronic
 date:
 hour:
 www:

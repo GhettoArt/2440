@@ -1,6 +1,6 @@
 ---
 name: DJ FLY
-genre:
+genres: Hip-Hop Scratch Bass Music
 date:
 hour:
 www:

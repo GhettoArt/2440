@@ -1,6 +1,6 @@
 ---
 name: Helper
-genres: Hip-hop / Abstract / Electronic
+genres: Bass Music
 date:
 hour:
 www: https://soundcloud.com/helper-3
