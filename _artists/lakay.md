@@ -3,7 +3,8 @@ name: Lakay
 genres: Dub / DubStep / Trance Downtempo / Jungle Psychédélique
 date:
 hour:
-www: https://soundcloud.com/lakay_worldpsydubmusic
+www:
+    soundcloud: https://soundcloud.com/lakay_worldpsydubmusic
 ---
 Trompettiste et multi-instrumentiste, c'est dans les années 2000 que Lakay découvre les musiques électroniques.
 

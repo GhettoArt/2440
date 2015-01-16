@@ -3,7 +3,9 @@ name: Far Too Loud
 genres: Dirty EletroHouse
 date:
 hour:
-www: https://soundcloud.com/ntrecordings/nt-vol-13-mix-by-far-too-loud
+www:
+    soundcloud: https://soundcloud.com/ntrecordings/nt-vol-13-mix-by-far-too-loud
+    youtube: https://www.youtube.com/watch?v=CruMUUVS6CM
 ---
 Far Too Loud, a.k.a. Oli Cash, a acquis sa réputation de sa musique hi-tech, destructrice de dancefloor et qui donne au public l'envie de lever les mains en l'air et de devenir fou.
 Pensez à des productions pleines d'énergie, funk aggressives, avec de grosses lignes de bass, à la fois folles et complexes et vous comprendrez ce qu'il en est.

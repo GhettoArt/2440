@@ -3,7 +3,9 @@ name: DJ FLY
 genre:
 date:
 hour:
-www: https://soundcloud.com/djflyone
+www:
+    soundcloud: https://soundcloud.com/djflyone
+    youtube: https://www.youtube.com/watch?v=0iZdggruFpY
 ---
 
 DJ FLY découvre les platines et le scratch à l’âge de 15 ans en 1998, ce divertissement après les cours, va vite se transformer en une véritable passion pour aboutir à sa profession.

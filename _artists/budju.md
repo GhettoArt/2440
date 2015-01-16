@@ -3,7 +3,9 @@ name: Budju
 genres: Global Bass / Uk / Bmore / Dutch
 date:
 hour:
-www: https://soundcloud.com/thebudju
+www:
+    officiel: http://budju.fr
+    soundcloud: https://soundcloud.com/thebudju
 ---
 
 Après deux EP en 2013 dont une collaboration avec Flore (Mad Decent) ainsi que plusieurs remixes (notamment pour le duo Tambour Battant), Budju prépare la sortie de son troisième maxi prévu pour le début d'année prochaine. Ses morceaux aux sonorités bass music sont déjà supportés et playlistés par les plus grands tels que Laurent Garnier, Far Too Loud, Zombie For Money mais aussi Douster et Costello pour ne citer qu'eux.

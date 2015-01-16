@@ -3,7 +3,8 @@ name: La Mangouste Crew
 genres: Electro / Noise / 8bit / Punk BreakBeatCyber Punk
 date:
 hour:
-www: https://soundcloud.com/lamangoustehardcrew
+www:
+    soundcloud: https://soundcloud.com/lamangoustehardcrew
 ---
 La Mangouste n’est pas qu’un animal, mais aussi un collectif.
 

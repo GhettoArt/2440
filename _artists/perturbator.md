@@ -3,7 +3,9 @@ name: Perturbator
 genres: Cyber Punk
 date:
 hour:
-www: http://perturbator.bandcamp.com/album/dangerous-days
+www:
+    bandcamp: http://perturbator.bandcamp.com/album/dangerous-days
+    youtube: https://www.youtube.com/watch?v=IGqeyQhBPMI
 ---
 Tête de proue du revival cyber punk, le producteur et DJ Français James Kent, aka Perturbator, fusionne l'anarchie cyborg et les synthétiseurs sous testostérone.
 
