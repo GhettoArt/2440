@@ -25,6 +25,10 @@ a:hover, a:focus {
     padding: 25px 0;
 }
 
+.fa-external-link {
+    font-size: 0.8em;
+}
+
 /** HOME */
 #home {
     background: url(../images/home.jpg) no-repeat center center fixed;

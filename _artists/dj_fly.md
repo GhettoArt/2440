@@ -7,10 +7,9 @@ www:
     soundcloud: https://soundcloud.com/djflyone
     youtube: https://www.youtube.com/watch?v=0iZdggruFpY
 ---
-
 DJ FLY découvre les platines et le scratch à l’âge de 15 ans en 1998, ce divertissement après les cours, va vite se transformer en une véritable passion pour aboutir à sa profession.
 
-Influencé principalement par le HipHop, DJ FLY s’enrichi de styles musicaux comme la Funk, le Rock, la musique traditionnelle et l’éléctro en général. Il compose des sets originaux pouvant passer d’un univers musical à un autre sans faire retomber la pression.Originaire de Lyon, DJ FLY fait ses premières armes dans les clubs et festivals de la région Rhône-Alpes, et c’est un véritable succès !! Le public ne s’y trompe pas et il se déplace chaque semaine en nombre pour savourer la partition de ce DJ qui monte…
+Influencé principalement par le HipHop, DJ FLY s’enrichit de styles musicaux comme la Funk, le Rock, la musique traditionnelle et l’éléctro en général. Il compose des sets originaux pouvant passer d’un univers musical à un autre sans faire retomber la pression.Originaire de Lyon, DJ FLY fait ses premières armes dans les clubs et festivals de la région Rhône-Alpes, et c’est un véritable succès !! Le public ne s’y trompe pas et il se déplace chaque semaine en nombre pour savourer la partition de ce DJ qui monte…
 
 Son aisance technique derrière les platines et son énergie communicative poussent tout le monde sur le dancefloor. Son talent lui fait franchir les frontières de sa ville natale… DJ FLY se produit désormais dans la France entière et à l’étranger avec le même succès : L’Original Festival (Lyon), Les Nuits sonores (Lyon), X-Games (Tignes) , Festival International des Sport Extrême (Tunisie), Tournées en Asie (Shanghaï, Shenzhen, Macau…), Tournée Canada (Québec, Sherbrooke, Montreal...), Tournée DMC U.K. (Londres, Newcastle, Leicester...) etc
 

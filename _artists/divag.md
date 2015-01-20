@@ -10,7 +10,7 @@ En 2002, Divag découvre la musique 8 bit par la communauté micromusic, et tomb
 
 Membre fondateur du Paris_HQ, cellule parisienne de micromusic, il organise de nombreuses soirées (les microparty) dans la capitale, invitant tout plein de micro-superstars d’Europe et d’ailleurs.
 
-En paralèlle, Divag s’adonne à la chiptune en composant des tracks sur Gameboy (avec le tracker LSDJ) et sur Atari ST (avec le tracker maxYMiser).
+En parallèle, Divag s’adonne à la chiptune en composant des tracks sur Gameboy (avec le tracker LSDJ) et sur Atari ST (avec le tracker maxYMiser).
 
 Fin 2005, il sort son premier EP « Gameboy Tunes » sur 8bitpeoples (référence parmi les web-labels spécialisés dans la musique 8-bit), et en 2007, un second EP « GB_Revenge » sur DWD-Records (jeune web-label Ukrainien prometteur dans la musique 8-bit).
 
