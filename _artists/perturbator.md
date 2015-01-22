@@ -4,8 +4,18 @@ genres: Cyber Punk
 date:
 hour:
 www:
-    bandcamp: http://perturbator.bandcamp.com/album/dangerous-days
-    youtube: https://www.youtube.com/watch?v=IGqeyQhBPMI
+    -
+        url: http://perturbator.bandcamp.com/album/dangerous-days
+        icon: music
+        label: Dangerous Days
+    -
+        url: https://www.youtube.com/watch?v=IGqeyQhBPMI
+        icon: youtube
+        label: YouTube
+    -
+        url: http://noisey.vice.com/fr/blog/perturbator-cyberpunk-doom-wave-synth
+        icon: comments
+        label: Interview sur Noisey
 ---
 Tête de proue du revival cyber punk, le producteur et DJ Français James Kent, aka Perturbator, fusionne l'anarchie cyborg et les synthétiseurs sous testostérone.
 

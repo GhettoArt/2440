@@ -4,9 +4,18 @@ genres: Bass Music Techno
 date:
 hour:
 www:
-    teaser 1: https://www.youtube.com/watch?v=OiqDKNRUvPo
-    teaser 2: https://www.youtube.com/watch?v=b01K5HpGVy4
-    soundcloud: https://soundcloud.com/flore
+    -
+        url: https://www.youtube.com/watch?v=OiqDKNRUvPo
+        icon: youtube
+        label: Teaser 1
+    -
+        url: https://www.youtube.com/watch?v=b01K5HpGVy4
+        icon: youtube
+        label: Teaser 2
+    -
+        url: https://soundcloud.com/flore
+        icon: soundcloud
+        label: Soundcloud
 ---
 RITUAL est un nouveau show né de la rencontre de la productrice & dj Flore, et du collectif VJing WSK.
 

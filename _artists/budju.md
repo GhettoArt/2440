@@ -4,8 +4,18 @@ genres: Global Bass
 date:
 hour:
 www:
-    officiel: http://budju.fr
-    soundcloud: https://soundcloud.com/thebudju
+    -
+        url: http://budju.fr
+        icon: external-link
+        label: Site Officiel
+    -
+        url: https://soundcloud.com/thebudju
+        icon: soundcloud
+        label: Soundcloud
+    -
+        url: https://www.youtube.com/user/budjumusic
+        icon: youtube
+        label: Youtube
 ---
 
 Après deux EP en 2013 dont une collaboration avec Flore (Mad Decent) ainsi que plusieurs remixes (notamment pour le duo Tambour Battant), Budju prépare la sortie de son troisième maxi prévu pour le début d'année prochaine. Ses morceaux aux sonorités bass music sont déjà supportés et playlistés par les plus grands tels que Laurent Garnier, Far Too Loud, Zombie For Money mais aussi Douster et Costello pour ne citer qu'eux.

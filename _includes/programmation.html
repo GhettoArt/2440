@@ -36,8 +36,8 @@
                                     <h3>{{ artist.genres }}</h3>
                                     <h3>{{ artist.date }} {{ artist.hour }}</h3>
                                     <p>
-                                        {% for item in artist.www %}
-                                        <a href="{{ item[1] }}" title="{{ item[0] | capitalize }}" target="_blank"><i class="fa fa-external-link"></i> {{ item[0] | capitalize }}</a><br />
+                                        {% for link in artist.www %}
+                                        <a href="{{ link.url }}" title="{{ link.label }}" target="_blank"><i class="fa fa-{{ link.icon }}"></i> {{ link.label }}</a><br />
                                         {% endfor %}
                                     </p>
                                 </div>

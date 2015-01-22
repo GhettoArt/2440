@@ -4,7 +4,18 @@ genres: Abstract Electronic
 date:
 hour:
 www:
-    soundcloud: https://soundcloud.com/altarba
+    -
+        url: http://altarba-beats.com/
+        icon: external-link
+        label: Site Officiel
+    -
+        url: https://www.facebook.com/altarbabeats
+        icon: facebook-square
+        label: Facebook
+    -
+        url: http://soundcloud.com/altarba
+        icon: soundcloud
+        label: Soundcloud
 ---
 
 Al’Tarba est auteur, compositeur et interprète. Petit fils d’un collectionneur de vinyles, bassiste, guitariste et fan de rap depuis son enfance, c’est après un passage par le punk qu’Al’Tarba s’est plongé à cœur perdu dans la culture Hip-Hop.

@@ -4,7 +4,14 @@ genres: Atari-ST / 8-bits / Electro-Chiptune / Hip-hop-Punk
 date:
 hour:
 www:
-    youtube: https://www.youtube.com/watch?v=oMo3dluY21Y
+    -
+        url: https://www.youtube.com/watch?v=oMo3dluY21Y
+        icon: youtube
+        label: Live at Rock en Seine 2011
+    -
+        url: http://www.dataglitch.org/release/the-lost-floppy/
+        icon: floppy-o
+        label: The Lost Floppy EP
 ---
 En 2002, Divag découvre la musique 8 bit par la communauté micromusic, et tombe entièrement dedans !
 

@@ -4,7 +4,18 @@ genres: Electro / Noise / 8bit / Punk BreakBeat
 date:
 hour:
 www:
-    soundcloud: https://soundcloud.com/lamangoustehardcrew
+    -
+        url: http://www.lamangouste.com/
+        icon: external-link
+        label: Site Officiel
+    -
+        url: https://www.facebook.com/lamangoustecrew
+        icon: facebook-square
+        label: Facebook
+    -
+        url: https://soundcloud.com/lamangoustehardcrew
+        icon: soundcloud
+        label: Soundcloud
 ---
 La Mangouste n’est pas qu’un animal, mais aussi un collectif.
 
