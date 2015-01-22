@@ -18,7 +18,7 @@ www:
         label: Soundcloud
     -
         url: https://myspace.com/lapsykay
-        icon: external-link
+        icon: users
         label: MySpace
 ---
 Trompettiste et multi-instrumentiste, c’est dans les années 2000 que Lakay découvre les musiques électroniques.
