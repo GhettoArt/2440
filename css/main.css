@@ -37,7 +37,7 @@ a:hover, a:focus {
     background-color: #333;
     border-color: #000;
     border-radius: 0;
-    transition: opacity .3s;
+    transition: opacity 0.3s;
     opacity: 0;
 }
 
@@ -92,7 +92,7 @@ a:hover, a:focus {
 #intro {
     background-color: #000000;
     display: table;
-    padding: 20px;
+    padding: 0 20px;
     position: relative;
     width: 100%;
     text-align: center;
