@@ -29,6 +29,31 @@ a:hover, a:focus {
     font-size: 0.8em;
 }
 
+/** NAVBAR */
+.navbar-default {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: #333;
+    border-color: #000;
+    border-radius: 0;
+    transition: opacity .3s;
+    opacity: 0;
+}
+
+#nav-small a {
+    color: #fff;
+}
+
+#nav-small li:hover {
+    background-color: #666;
+}
+
+.navbar-brand {
+    padding-top: 5px;
+}
+
+
 /** HOME */
 #home {
     background: url(../images/home.jpg) no-repeat center center fixed;
@@ -41,7 +66,7 @@ a:hover, a:focus {
     -o-background-size: cover;
     background-size: cover;
     text-align: center;
-    padding-top: 50px;
+    padding: 80px 0;
 }
 
 #home h1 {
@@ -140,6 +165,7 @@ ul.durable li {
 footer {
     padding: 20px 0;
     background-color: #111;
+    height: 550px;
 }
 
 footer a {
@@ -173,9 +199,6 @@ footer ul.social li {
 
 /** Ipad 3/4 */
 @media screen and (max-width: 1024px) {
-    #home {
-        padding-top: 0;
-    }
     #home h1 {
         font-size: 4em;
     }
