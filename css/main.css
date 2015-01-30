@@ -183,6 +183,10 @@ footer ul.social li {
     display: inline-block;
 }
 
+.ticket {
+    height: 130px;
+}
+
 .ticket .fa-stack-2x {
     transform: rotate(45deg);
 }
