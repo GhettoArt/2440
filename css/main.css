@@ -96,10 +96,10 @@ a:hover, a:focus {
 #intro {
     background: url(../images/intro.jpg) no-repeat center center fixed;
     display: table;
-    padding: 0 20px;
+    padding: 0 10%;
     position: relative;
     width: 100%;
-    text-align: center;
+    text-align: justify;
     font-size: 1.3em;
     color: #ffffff;
     -webkit-background-size: cover;
@@ -270,7 +270,7 @@ table.center {
     margin: 0 auto;
 }
 
-div.center {
+.center {
     text-align: center;
 }
 
