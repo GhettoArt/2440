@@ -1,27 +1,71 @@
 <div id="tickets">
-    <div class="container">
-        <h1 align="center">Billetterie</h1>
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-md-6 col-sm-12 col-xs-12 ticket">
-                <span class="fa-stack fa-5x pull-left">
-                    <i class="fa fa-ticket fa-stack-2x"></i>
-                    <i class="fa-stack-1x">1 jour</i>
-                </span>
-                <h2>21,00&nbsp;€</h2>
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 pricing">
+                <h1>Billetterie</h1>
+                <table cellpadding="0" cellspacing="0" border="0" class="center hidden-xs">
+                    <thead>
+                        <tr>
+                            <th>&nbsp;</th>
+                            <th><h2>Festival</h2></th>
+                            <th><h2>Festival<br />+ After</h2></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <span class="ticket fa-stack fa-5x pull-left">
+                                    <i class="fa fa-ticket fa-stack-2x"></i>
+                                    <i class="fa-stack-1x">1 jour</i>
+                                </span>
+                            </td>
+                            <td class="price">21,00 €</td>
+                            <td class="price">23,00 €</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="ticket fa-stack fa-5x pull-left">
+                                    <i class="fa fa-ticket fa-stack-2x"></i>
+                                    <i class="fa-stack-1x">2 jours</i>
+                                </span>
+                            </td>
+                            <td class="price">37,00 €</td>
+                            <td class="price">40,00 €</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="visible-xs">
+                    <h2>Festival</h2>
+                    <p>
+                        <b>1 jour</b> 21,00 €<br />
+                        <b>2 jours</b> 37,00 €
+                    </p>
+                    <h2>Festival + After</h2>
+                    <p>
+                        <b>1 jour</b> 23,00 €<br />
+                        <b>2 jours</b> 40,00 €
+                    </p>
+                </div>
+                <a class="btn btn-primary btn-lg btn-x-lg" href="#electronic-ticket" data-toggle="modal">
+                    <i class="fa fa-shopping-cart"></i> Billet électronique
+                </a>
             </div>
-            <div class="col-md-6 col-sm-12 col-xs-12 ticket">
-                <span class="fa-stack fa-5x pull-left">
-                    <i class="fa fa-ticket fa-stack-2x"></i>
-                    <i class="fa-stack-1x">2 jours</i>
-                </span>
-                <h2>37,00&nbsp;€</h2>
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 after">
+                <div class="center">
+                    <img src="images/remorqueur.png" title="Le Remorqueur paie son after" />
+                </div>
+                <p>
+                    En l'an 2440, dans un monde ou faire la fête est devenu monnaie courante, il devient difficile de dénicher un lieu atypique, fort en symbole où la liberté d'expression nous permet à tous de refaire le monde jusqu'à l'aurore. Les Civi-Drones veillent à ce que l'ordre ne soit pas perturbé, et gare à celui qui ère trop tard dans les rues de la cité !<br />
+                    Heureusement, aux abords de la mégalopole, il existe un repère, un vieux vaisseau rouillé semblant abandonné : Le Remorqueur. Dans ce lieu authentique et festif se retrouvent celles et ceux pour qui faire la fête est un art de vivre !
+                </p>
+                <p>
+                    Nouveaux billets avec after de 2h à 6h avec nos amis de La Mangouste au Remorqueur !<br />
+                    Des bus sont mis à disposition pour vous déposer dans le centre de Nantes au pied de la Gare Sud.<br />
+                </p>
+                <p>
+                    <b>Attention, cette offre est limité à 100 places !</b>
+                </p>
             </div>
-        </div>
-
-        <div class="row artist">
-            <a class="btn btn-primary btn-lg btn-x-lg" href="#electronic-ticket" data-toggle="modal">
-                <i class="fa fa-shopping-cart"></i> Billet électronique</a>
-            </li>
         </div>
     </div>
 </div>
