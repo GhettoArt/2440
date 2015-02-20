@@ -46,6 +46,12 @@
             </div>
         </nav>
 
+        <div class="tickets-shortcut hidden-sm hidden-xs">
+            <a data-scroll data-options='{"offset": 50}' href="#tickets">
+                <img src="/images/vessel.png" title="Accéder à la Billetterie" />
+            </a>
+        </div>
+
         {% include introduction.html %}
         {% include programmation.html %}
         {% include tickets.html %}
@@ -61,15 +67,38 @@
             $(function(){
                 smoothScroll.init();
 
-                var toggleNavBar = function() {
-                    if ($(this).scrollTop() > 100) {
+                var toggleOnScroll = function(scrollTop, f1, f2) {
+                    return function() {
+                        if ($(this).scrollTop() > scrollTop) {
+                            f1();
+                        } else {
+                            f2();
+                        }
+                    };
+                };
+                var toggleNavBar = toggleOnScroll(
+                    100,
+                    function() {
                         $('.navbar-default').css('opacity', 1);
-                    } else {
+                    },
+                    function() {
                         $('.navbar-default').css('opacity', 0);
                     }
-                };
+                );
+                var toggleVessel = toggleOnScroll(
+                    0,
+                    function() {
+                        $('.tickets-shortcut').addClass('small');
+                    },
+                    function() {
+                        $('.tickets-shortcut').removeClass('small');
+                    }
+                );
+
                 toggleNavBar();
-                $(window).on('scroll', toggleNavBar.bind(this));
+                toggleVessel();
+                $(window).on('scroll', toggleNavBar);
+                $(window).on('scroll', toggleVessel);
 
                 var normalizeHeights = function($a, $b) {
                     if ($a.height() > $b.height()) {
@@ -80,7 +109,6 @@
                 };
                 if (window.innerWidth >= 1200) {
                     normalizeHeights($('#tickets .after'), $('#tickets .pricing'));
-                    normalizeHeights($('#access .map'), $('#access .info'));
                 }
             });
 

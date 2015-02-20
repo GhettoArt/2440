@@ -307,6 +307,28 @@ table.center {
     filter: grayscale(0%);
 }
 
+.tickets-shortcut {
+    transition: width ease .5s;
+    position: fixed;
+    z-index: 1;
+    bottom: 10px;
+    left: 10px;
+    width: 400px;
+}
+
+.tickets-shortcut.small {
+    width: 250px;
+}
+
+.tickets-shortcut img {
+    overflow: hidden;
+    transition: transform ease-in .1s;
+}
+
+.tickets-shortcut img:hover {
+    transform: rotate(15deg);
+}
+
 .push-top {
     padding-top: 10px;
 }
