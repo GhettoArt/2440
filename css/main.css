@@ -185,6 +185,14 @@ footer a.twitter:hover {
     color: #00aced;
 }
 
+footer a.youtube:hover {
+    color: #bb0000;
+}
+
+footer a.instagram:hover {
+    color: #517fa4;
+}
+
 footer ul.social li {
     display: inline-block;
 }
