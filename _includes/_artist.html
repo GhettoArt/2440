@@ -21,7 +21,6 @@
                     </div>
                     <div class="col-md-9">
                         <h3>{{ artist.genres }}</h3>
-                        <h3>{{ artist.date }} {{ artist.hour }}</h3>
                         <p>
                             {% for link in artist.www %}
                             <a href="{{ link.url }}" title="{{ link.label }}" target="_blank"><i class="fa fa-{{ link.icon }}"></i> {{ link.label }}</a><br />
