@@ -19,6 +19,7 @@ a {
 
 p, address, dl {
     font-size: 1.3em;
+    text-align: justify;
 }
 
 a:hover, a:focus {
