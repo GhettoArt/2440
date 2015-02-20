@@ -164,43 +164,6 @@ a:hover, a:focus {
     }
 }
 
-footer {
-    padding: 20px 0;
-    background-color: #111;
-    height: 550px;
-}
-
-footer a {
-    color: #eeeeee;
-}
-footer .fa-inverse {
-    color: #111111;
-}
-
-footer a:hover {
-    color: #ccc;
-}
-
-footer a.facebook:hover {
-    color: #3b5999;
-}
-
-footer a.twitter:hover {
-    color: #00aced;
-}
-
-footer a.youtube:hover {
-    color: #bb0000;
-}
-
-footer a.instagram:hover {
-    color: #517fa4;
-}
-
-footer ul.social li {
-    display: inline-block;
-}
-
 .ticket {
     height: 90px;
     top: -35px;
@@ -273,6 +236,16 @@ footer ul.social li {
     border-color: transparent transparent #6e0006;
 }
 
+#access {
+    background: url(../images/prog.png) no-repeat center center fixed;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #ffffff;
+}
 #access .map {
     height: 300px;
 }
@@ -292,19 +265,54 @@ table.center {
     color: #333333;
 }
 
-#partnership .modal-body {
-    text-align: center;
+footer {
+    padding: 20px 0;
+    background-color: #ffffff;
+    min-height: 550px;
 }
 
-#partnership a img {
+footer a {
+    color: #111111;
+}
+footer .fa-inverse {
+    color: #eeeeee;
+}
+
+footer a:hover {
+    color: #444444;
+}
+
+footer a.facebook:hover {
+    color: #3b5999;
+}
+
+footer a.twitter:hover {
+    color: #00aced;
+}
+
+footer a.youtube:hover {
+    color: #bb0000;
+}
+
+footer a.instagram:hover {
+    color: #517fa4;
+}
+
+footer ul.social li {
+    display: inline-block;
+}
+
+.partnership a img {
     transition: all ease .3s;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
+    opacity: .5;
 }
 
-#partnership a:hover img {
+.partnership a:hover img {
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%);
+    opacity: 1;
 }
 
 .tickets-shortcut {
