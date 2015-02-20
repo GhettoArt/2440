@@ -1,7 +1,7 @@
 ---
 name: Perturbator
 genres: Cyber Punk
-date:
+date: Vendredi
 hour:
 www:
     -

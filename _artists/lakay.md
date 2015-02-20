@@ -1,7 +1,7 @@
 ---
 name: Lakay
 genres: Dub / DubStep / Trance Downtempo / Jungle Psychédélique
-date:
+date: Vendredi
 hour:
 www:
     -

@@ -151,17 +151,13 @@ a:hover, a:focus {
     color: #000000;
 }
 
-#durable {
-    background: url(../images/durable.jpg) no-repeat center right;
-    height: 400px;
-}
-
-ul.durable {
-    font-size: 1.5em;
-}
-
-ul.durable li {
-    padding: 15px 0;
+@media screen and (min-width: 992px) {
+    #prog {
+        padding-bottom: 10px;
+    }
+    #prog .row > div:not(:first-child){
+        border-left: 1px solid #aaaaaa;
+    }
 }
 
 footer {

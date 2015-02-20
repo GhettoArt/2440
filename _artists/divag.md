@@ -1,7 +1,7 @@
 ---
 name: Divag
 genres: Atari-ST / 8-bits / Electro-Chiptune / Hip-hop-Punk
-date:
+date: Vendredi
 hour:
 www:
     -

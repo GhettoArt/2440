@@ -1,7 +1,7 @@
 ---
 name: Budju
 genres: Global Bass
-date:
+date: Samedi
 hour:
 www:
     -

@@ -1,7 +1,7 @@
 ---
 name: Alphaat
 genres: Techno
-date:
+date: Samedi
 hour:
 www:
     -

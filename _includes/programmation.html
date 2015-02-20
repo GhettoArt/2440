@@ -1,57 +1,22 @@
 <div id="prog">
     <div class="container">
         <h1 align="center">Programmation</h1>
-        {% assign days = site.artists | sort: "hour", "first" | sort: "date", "first" | group_by: "date" %}
-        {% for day in days %}
-
-        {% if day.name != "" %}
-        <h2>{{ day.name|date_to_long_string|replace: "May", "mai" }}</h2>
-        {% endif %}
+        {% assign fridays = site.artists | where: "date", "Vendredi" | sort: "hour", "first" %}
+        {% assign saturdays = site.artists | where: "date", "Samedi" | sort: "hour", "first" %}
 
         <div class="row">
-            {% for artist in day.items %}
-
-            <div class="col-sm-3 col-md-3 artist">
-                <a href="#{{ artist.name | slugify }}" data-toggle="modal">
-                    <img src="images/artists/{{ artist.name | slugify }}.mini.jpg" alt="{{ artist.name }}" /><br />
-                    {{ artist.name }}
-                </a>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <h2>Vendredi</h2>
+                {% for artist in fridays %}
+                    {% include _artist.html %}
+                {% endfor %}
             </div>
-
-            <article id="{{ artist.name | slugify }}" class="modal fade" tabindex="-1" role="dialog">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h2 class="modal-title">{{ artist.name }}</h2>
-                        </div>
-
-                        <div class="modal-body">
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <img src="images/artists/{{ artist.name | slugify }}.jpg" alt="{{ artist.name }}" />
-                                </div>
-                                <div class="col-md-9">
-                                    <h3>{{ artist.genres }}</h3>
-                                    <h3>{{ artist.date }} {{ artist.hour }}</h3>
-                                    <p>
-                                        {% for link in artist.www %}
-                                        <a href="{{ link.url }}" title="{{ link.label }}" target="_blank"><i class="fa fa-{{ link.icon }}"></i> {{ link.label }}</a><br />
-                                        {% endfor %}
-                                    </p>
-                                </div>
-                            </div>
-                            <p>{{ artist.content}}</p>
-                        </div>
-
-                    </div>
-                </div>
-            </article>
-
-            {% endfor %}
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <h2>Samedi</h2>
+                {% for artist in saturdays %}
+                    {% include _artist.html %}
+                {% endfor %}
+            </div>
         </div>
-
-        {% endfor %}
     </div>
 </div>

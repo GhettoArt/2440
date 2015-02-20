@@ -1,7 +1,7 @@
 ---
 name: Far Too Loud
 genres: House BreakBeat
-date:
+date: Vendredi
 hour:
 www:
     -

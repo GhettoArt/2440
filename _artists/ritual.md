@@ -1,7 +1,7 @@
 ---
 name: RITUAL
 genres: Bass Music Techno
-date:
+date: Samedi
 hour:
 www:
     -

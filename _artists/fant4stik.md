@@ -1,7 +1,7 @@
 ---
 name: FANT4STIK
 genres: Happy Hartek
-date:
+date: Samedi
 hour:
 www:
     -
