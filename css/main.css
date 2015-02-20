@@ -16,6 +16,11 @@ ul {
 a {
     color: #000;
 }
+
+p, address, dl {
+    font-size: 1.3em;
+}
+
 a:hover, a:focus {
     text-decoration: none;
     color: #333;
@@ -99,7 +104,6 @@ a:hover, a:focus {
     position: relative;
     width: 100%;
     text-align: justify;
-    font-size: 1.3em;
     color: #ffffff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -269,6 +273,10 @@ footer ul.social li {
     border-color: transparent transparent #6e0006;
 }
 
+#access .map {
+    height: 300px;
+}
+
 table.center {
     margin: 0 auto;
 }
@@ -297,6 +305,10 @@ table.center {
 #partnership a:hover img {
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%);
+}
+
+.push-top {
+    padding-top: 10px;
 }
 
 /** RESPONSIVE */
