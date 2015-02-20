@@ -111,6 +111,10 @@ a:hover, a:focus {
     background-size: cover;
 }
 
+#home .logo {
+    padding: 85px 0;
+}
+
 .down {
     position: absolute;
     margin: 0 auto;
@@ -321,7 +325,7 @@ footer ul.social li {
     z-index: 1;
     bottom: 10px;
     left: 10px;
-    width: 400px;
+    width: 300px;
 }
 
 .tickets-shortcut.small {
@@ -334,7 +338,7 @@ footer ul.social li {
 }
 
 .tickets-shortcut img:hover {
-    transform: rotate(15deg);
+    transform: rotate(5deg);
 }
 
 .push-top {
