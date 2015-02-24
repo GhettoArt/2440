@@ -6,17 +6,20 @@
 
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <h2>Vendredi</h2>
+                <h2 align="center">Vendredi</h2>
                 {% for artist in fridays %}
                     {% include _artist.html %}
                 {% endfor %}
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <h2>Samedi</h2>
+                <h2 align="center">Samedi</h2>
                 {% for artist in saturdays %}
                     {% include _artist.html %}
                 {% endfor %}
             </div>
+        </div>
+        <div class="row center">
+            <h2>Suite à venir...</h2>
         </div>
     </div>
 </div>
