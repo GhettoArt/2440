@@ -210,7 +210,13 @@ a:hover, a:focus {
 }
 
 #tickets .pricing {
-    background-color: #333333;
+    background: url(../images/pricing.png) no-repeat center center fixed;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #ffffff;
     color: #ffffff;
     text-align: center;
     padding-bottom: 20px;
