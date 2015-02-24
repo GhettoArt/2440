@@ -313,6 +313,25 @@ footer ul.social li {
     display: inline-block;
 }
 
+@media screen and (min-width: 1024px) {
+    footer ul.social li {
+        display: block;
+    }
+
+    footer ul.social {
+        position: fixed;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        opacity: .3;
+        transition: opacity ease .3s;
+    }
+
+    footer ul.social:hover {
+        opacity: 1;
+    }
+}
+
 .partnership a img {
     transition: all ease .3s;
     -webkit-filter: grayscale(100%);
