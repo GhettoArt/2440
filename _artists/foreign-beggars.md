@@ -2,6 +2,7 @@
 name: Foreign Beggars
 genres: Hip Hop Electro
 date: Vendredi
+position: 10
 hour:
 www:
     -

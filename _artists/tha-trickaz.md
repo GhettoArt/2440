@@ -2,6 +2,7 @@
 name: Tha Trickaz
 genres: Hip Hop DubStep Electro
 date: Samedi
+position: 20
 hour:
 www:
     -

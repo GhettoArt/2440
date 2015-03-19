@@ -2,6 +2,7 @@
 name: La Mangouste Crew
 genres: Electro / Noise / 8bit / Punk BreakBeat
 date: Samedi
+position: 100
 hour:
 www:
     -
