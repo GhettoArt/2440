@@ -2,7 +2,7 @@
 name: Rony Coco Techno Accordéon
 genres: Techno Accordéon
 date: Vendredi
-position:
+position: 200
 hour:
 www:
     -

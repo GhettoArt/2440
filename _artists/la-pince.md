@@ -2,7 +2,7 @@
 name: La Pince
 genres: Post-Punk, Noise
 date: Vendredi
-position:
+position: 190
 hour:
 www:
     -

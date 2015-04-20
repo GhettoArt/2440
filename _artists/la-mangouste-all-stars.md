@@ -2,7 +2,7 @@
 name: La Mangouste All Stars
 genres: Guinguette Top 50
 date: Vendredi
-position: 160
+position: 170
 hour:
 www:
     -
