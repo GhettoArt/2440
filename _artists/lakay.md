@@ -2,8 +2,9 @@
 name: Lakay
 genres: Dub / DubStep / Trance Downtempo / Jungle Psychédélique
 date: Vendredi
+hour: "19:30"
+stage: Equilibrium
 position: 130
-hour:
 www:
     -
         url: http://www.lakaymusic.net/

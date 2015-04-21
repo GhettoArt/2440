@@ -2,8 +2,9 @@
 name: Al'Tarba & DJ Nix'on
 genres: Abstract Electronic
 date: Vendredi
+hour: "20:30"
+stage: Awry
 position: 40
-hour:
 www:
     -
         url: http://altarba-beats.com/

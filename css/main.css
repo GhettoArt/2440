@@ -43,7 +43,7 @@ a.inversed:hover, a.inversed:focus {
     font-size: 18px;
     text-align: center;
     padding: 0;
-    min-height: 202px;
+    min-height: 160px;
 }
 
 .fa-external-link {

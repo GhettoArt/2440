@@ -2,8 +2,9 @@
 name: Far Too Loud
 genres: House BreakBeat
 date: Vendredi
+hour: "01:00"
+stage: Awry
 position: 30
-hour:
 www:
     -
         url: https://soundcloud.com/ntrecordings/nt-vol-13-mix-by-far-too-loud

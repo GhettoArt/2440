@@ -2,8 +2,9 @@
 name: Rony Coco Techno Accordéon
 genres: Techno Accordéon
 date: Vendredi
+hour: "22:10"
+stage: Labo
 position: 200
-hour:
 www:
     -
         url: http://www.facebook.com/RonyCocoTechno

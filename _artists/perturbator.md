@@ -2,8 +2,9 @@
 name: Perturbator
 genres: Cyber Punk
 date: Vendredi
+hour: "00:00"
+stage: Equilibrium
 position: 80
-hour:
 www:
     -
         url: http://perturbator.bandcamp.com/album/dangerous-days

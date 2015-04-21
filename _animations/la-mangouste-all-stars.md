@@ -1,9 +1,9 @@
 ---
 name: La Mangouste All Stars
 genres: Guinguette Top 50
-date: Vendredi
-position: 170
-hour:
+position: 10
+hour: "19:30"
+stage: Labo
 www:
     -
         url: http://www.lamangouste.com/

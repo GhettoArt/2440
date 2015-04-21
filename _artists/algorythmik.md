@@ -2,8 +2,9 @@
 name: AlgoRythmiK
 genres: Swing Electro Dubstep
 date: Vendredi
+stage: Equilibrium
+hour: "21:30"
 position: 60
-hour:
 www:
     -
         url: http://algorythmik.com/

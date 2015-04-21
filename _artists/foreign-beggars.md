@@ -2,8 +2,9 @@
 name: Foreign Beggars
 genres: Hip Hop Electro
 date: Vendredi
+hour: "22:30"
+stage: Awry
 position: 10
-hour:
 www:
     -
         url: http://foreignbeggars.com/
