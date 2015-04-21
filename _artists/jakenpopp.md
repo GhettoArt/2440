@@ -20,7 +20,7 @@ www:
     -
         url: https://soundcloud.com/jankenpopp
         icon: soundcloud
-        label: Soundcloud
+        label: SoundCloud
 ---
 Pierre-Erick Lefebvre a créé le projet de live multimédia « Jankenpopp » en 2005. A la fois designer d’instruments électroniques interactifs, producteur iconoclaste, véritable show-man, et vidéaste, ce « dandy dada électronique » deploie dans ses sets un arc-en-ciel de styles musicaux (synthpop, data-rock, bass-music, rave gameboy).
 

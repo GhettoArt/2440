@@ -8,7 +8,7 @@ www:
     -
         url: https://soundcloud.com/extra-tourist
         icon: soundcloud
-        label: Soundcloud
+        label: SoundCloud
     -
         url: http://extra-tourist.tumblr.com/
         icon: tumblr

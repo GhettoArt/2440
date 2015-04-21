@@ -16,7 +16,7 @@ www:
     -
         url: https://soundcloud.com/flore
         icon: soundcloud
-        label: Soundcloud
+        label: SoundCloud
 ---
 RITUAL est un nouveau show né de la rencontre de la productrice & dj Flore, et du collectif VJing WSK.
 

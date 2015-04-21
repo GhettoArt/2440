@@ -6,17 +6,42 @@
         {% assign animations = site.animations | sort: "position", "first" %}
 
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <h2 align="center">Vendredi</h2>
-                {% for artist in fridays %}
-                    {% include _artist.html %}
-                {% endfor %}
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 separate-bottom">
+                <div class="row">
+                    <h2 align="center">Vendredi</h2>
+                    {% for artist in fridays %}
+                        {% unless artist.stage == "Remorqueur" %}
+                            {% include _artist.html %}
+                        {% endunless %}
+                    {% endfor %}
+                </div>
+                <div class="row">
+                    <h2 align="center">After</h2>
+                    {% for artist in fridays %}
+                        {% if artist.stage == "Remorqueur" %}
+                            {% include _artist.html %}
+                        {% endif %}
+                    {% endfor %}
+                </div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <h2 align="center">Samedi</h2>
-                {% for artist in saturdays %}
-                    {% include _artist.html %}
-                {% endfor %}
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 separate-left">
+                <div class="row">
+                    <h2 align="center">Samedi</h2>
+                    {% for artist in saturdays %}
+                        {% unless artist.stage == "Remorqueur" %}
+                            {% include _artist.html %}
+                        {% endunless %}
+                    {% endfor %}
+                </div>
+                <div class="row">
+                    <h2 align="center">After</h2>
+                    {% for artist in saturdays %}
+                        {% if artist.stage == "Remorqueur" %}
+                            {% include _artist.html %}
+                        {% endif %}
+                    {% endfor %}
+                </div>
             </div>
         </div>
 
@@ -26,6 +51,7 @@
                 {% for artist in animations %}
                     {% include _artist.html %}
                 {% endfor %}
+                <br /><br /> <h3>et plus à venir...</h3>
             </div>
         </div>
     </div>

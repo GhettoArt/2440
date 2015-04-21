@@ -12,7 +12,7 @@ www:
     -
         url: https://soundcloud.com/sauvagefm
         icon: soundcloud
-        label: Soundcloud
+        label: SoundCloud
     -
         url: http://www.deezer.com/artist/1405198
         icon: music

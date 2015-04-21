@@ -16,7 +16,7 @@ www:
     -
         url: https://soundcloud.com/djflyone
         icon: soundcloud
-        label: Soundcloud
+        label: SoundCloud
 ---
 Influencé principalement par le HipHop, DJ FLY s’enrichit de styles musicaux comme la Funk, le Rock, la musique traditionnelle et l’éléctro en général. Il compose des sets originaux pouvant passer d’un univers musical à un autre sans faire retomber la pression. Originaire de Lyon, DJ FLY fait ses premières armes dans les clubs et festivals de la région Rhône-Alpes, et c’est un véritable succès !!
 

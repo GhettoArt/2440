@@ -21,7 +21,7 @@ www:
     -
         url: https://soundcloud.com/foreignbeggars
         icon: soundcloud
-        label: Soundcloud
+        label: SoundCloud
 ---
 
 Le nouvel opus de Foreign Beggars est un mélange inclassable de leurs précédentes machinations. Cette dance music à faire gronder le sol et exploser les enceintes est produite par les artistes les plus en vogue. Foreign Beggars a fourni une succession de collaborations de haut vol.

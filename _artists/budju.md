@@ -12,7 +12,7 @@ www:
     -
         url: https://soundcloud.com/thebudju
         icon: soundcloud
-        label: Soundcloud
+        label: SoundCloud
     -
         url: https://www.youtube.com/user/budjumusic
         icon: youtube

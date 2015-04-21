@@ -17,7 +17,7 @@ www:
     -
         url: http://soundcloud.com/algorythmiklive
         icon: soundcloud
-        label: Soundcloud
+        label: SoundCloud
 ---
 Depuis 2009, la formation en haut de forme ne cesse de faire parler d’elle, écumant sans distinction scènes hexagonales, anglaises, belges, écossaises, ou suisses. Un premier EP, « Show Breaks », sorti en janvier 2010, un album, « Morphism », en novembre 2011, une poignée de titres en libre téléchargement, le trio n’a de cesse de remettre en question ses acquis et faire tomber les murs des genres. Electro, hip-hop, big beat, jazz, swing ou dubstep, sur disque comme sur scène les titres se suivent mais ne se ressemblent pas !
 

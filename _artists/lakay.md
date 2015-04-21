@@ -17,7 +17,7 @@ www:
     -
         url: https://soundcloud.com/lakay_worldpsydubmusic
         icon: soundcloud
-        label: Soundcloud
+        label: SoundCloud
     -
         url: https://myspace.com/lapsykay
         icon: users

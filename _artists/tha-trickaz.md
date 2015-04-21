@@ -28,7 +28,7 @@ www:
     -
         url: https://soundcloud.com/thatrickaz
         icon: soundcloud
-        label: Soundcloud
+        label: SoundCloud
     -
         url: https://pro.beatport.com/artist/tha-trickaz/191930
         icon: headphones

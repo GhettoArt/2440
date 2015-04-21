@@ -175,8 +175,13 @@ a.inversed:hover, a.inversed:focus {
     #prog {
         padding-bottom: 10px;
     }
-    #prog .row > div:not(:first-child){
+    #prog .separate-left {
         border-left: 1px solid #aaaaaa;
+    }
+}
+@media screen and (max-width: 992px) {
+    #prog .separate-bottom {
+        border-bottom: 1px solid #aaaaaa;
     }
 }
 
