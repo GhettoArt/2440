@@ -1,7 +1,5 @@
 ---
 name: Dominique Huchet
-hour: "22:30"
-stage: Labo
 position: 30
 www:
     -
