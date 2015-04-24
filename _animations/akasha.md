@@ -1,6 +1,6 @@
 ---
 name: Akasha
-position: 100
+position: 25
 www:
     -
         url: http://www.avst.sk/

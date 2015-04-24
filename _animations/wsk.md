@@ -1,6 +1,6 @@
 ---
 name: WSK
-position: 80
+position: 26
 www:
     -
         url: https://www.facebook.com/wskvj
