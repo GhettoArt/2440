@@ -7,7 +7,7 @@ www:
         icon: facebook-square
         label: Page Officielle
 ---
-Les astéroïdes, collectif né du milieu rave party dans les années 90, incontournables dans les milieu électros.
+Les astéroïdes, collectif né du milieu rave party dans les années 90, incontournables dans les milieux électros.
 
 Originaires de Montpellier l'association voit le jour en 1996. La Techno Parade est leur terrain favori comme la Street Parade de Zurich. Ils se produisent notamment pour Cartier sous les toits de Beaubourg, puis pour Paco Rabanne, entre autres.
 
