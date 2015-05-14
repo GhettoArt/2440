@@ -1,9 +1,9 @@
 ---
 name: Destop
 genres: Maximum Rave
-date: Vendredi
+date: Samedi
 position: 210
-hour:
+hour: "00:15"
 www:
     -
         url: https://soundcloud.com/destop

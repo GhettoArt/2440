@@ -3,7 +3,7 @@ name: FANT4STIK
 genres: Happy Hartek
 date: Samedi
 position: 50
-hour:
+hour: "23:30"
 www:
     -
         url: https://www.facebook.com/fant4stik

@@ -3,7 +3,7 @@ name: Gabber Salé
 genres: Hardcore Nation
 date: Samedi
 position: 160
-hour:
+hour: "23:00"
 www:
     -
         url: https://www.mixcloud.com/LeMarathonElectronique/marathonelectronique-podcast-09-par-gabber-sal%C3%A9-la-mangouste/

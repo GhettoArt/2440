@@ -3,7 +3,7 @@ name: DJ FLY
 genres: Hip-Hop Scratch Bass Music
 date: Samedi
 position: 70
-hour:
+hour: "22:30"
 www:
     -
         url: https://www.facebook.com/djflyone

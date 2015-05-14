@@ -1,8 +1,9 @@
 ---
 name: Karaotek
 genres: Karaoké, Kicks et Amour
-date: Vendredi
-hour: "22:30"
+hours:
+    Vendredi: [ "22:30" ]
+    Samedi: [ "22:15" ]
 stage: Labo
 position: 20
 www:

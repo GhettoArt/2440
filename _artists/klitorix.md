@@ -3,7 +3,7 @@ name: Klitorix
 genres: Castracore
 date: Vendredi
 position: 160
-hour:
+hour: "00:00"
 www:
     -
         url: https://soundcloud.com/klitorix

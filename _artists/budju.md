@@ -3,7 +3,7 @@ name: Budju
 genres: Global Bass
 date: Samedi
 position: 90
-hour:
+hour: "21:30"
 www:
     -
         url: http://budju.fr

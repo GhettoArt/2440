@@ -3,7 +3,7 @@ name: RITUAL
 genres: Bass Music Techno
 date: Samedi
 position: 140
-hour:
+hour: "18:30"
 www:
     -
         url: https://www.youtube.com/watch?v=OiqDKNRUvPo

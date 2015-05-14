@@ -3,7 +3,7 @@ name: Sauvage FM
 genres: Zouk Bass Kuduro
 date: Samedi
 position: 110
-hour:
+hour: "19:30"
 www:
     -
         url: https://www.facebook.com/sauvagefmsound

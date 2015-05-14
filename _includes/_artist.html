@@ -1,6 +1,11 @@
 <div class="col-xs-6 col-sm-3 col-md-4 col-lg-3 artist stage-{{ artist.stage | slugify }}">
     <a href="#{{ artist.name | slugify }}" data-toggle="modal">
-        <img src="images/artists/{{ artist.name | slugify }}.jpg" alt="{{ artist.name }}" width="110" height="110" /><br />
+        <div class="artist-preview">
+            <img src="images/artists/{{ artist.name | slugify }}.jpg" alt="{{ artist.name }}" width="110" height="110" />
+            {% if artist.hour %}
+            <span class="schedule">{{ artist.hour }}</span>
+            {% endif %}
+        </div>
         {{ artist.name }}
     </a>
 </div>
@@ -21,6 +26,9 @@
                     </div>
                     <div class="col-md-9">
                         <h3>{{ artist.genres }}</h3>
+                        {% if artist.hour %}
+                        <h3>{{ artist.hour }}</h3>
+                        {% endif %}
                         <p>
                             {% for link in artist.www %}
                             <a href="{{ link.url }}" title="{{ link.label }}" target="_blank"><i class="fa fa-{{ link.icon }}"></i> {{ link.label }}</a><br />

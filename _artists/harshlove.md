@@ -3,7 +3,7 @@ name: Harshlove
 genres: Acid Punk
 date: Samedi
 position: 160
-hour:
+hour: "21:30"
 www:
     -
         url: http://harshlove.bandcamp.com/album/mort-pour-la-transe-e-p

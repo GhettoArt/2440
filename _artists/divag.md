@@ -3,7 +3,7 @@ name: Divag
 genres: Atari-ST / 8-bits / Electro-Chiptune / Hip-hop-Punk
 date: Vendredi
 position: 150
-hour:
+hour: "20:45"
 www:
     -
         url: https://www.youtube.com/watch?v=oMo3dluY21Y

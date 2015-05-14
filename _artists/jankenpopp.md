@@ -1,9 +1,9 @@
 ---
-name: Janckenpopp
+name: Jankenpopp
 genres: One Man Band Karaoké Explosion
 date: Vendredi
 position: 180
-hour:
+hour: "23:15"
 www:
     -
         url: http://jankenpopp.com/

@@ -3,7 +3,7 @@ name: Extra-Tourist
 genres: Space Operave
 date: Samedi
 position: 160
-hour:
+hour: "23:30"
 www:
     -
         url: https://soundcloud.com/extra-tourist
