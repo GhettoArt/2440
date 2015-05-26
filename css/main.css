@@ -35,6 +35,11 @@ a.inversed:hover, a.inversed:focus {
     color: #ccc;
 }
 
+.modal-backdrop {
+    position: fixed;
+    bottom: 0;
+}
+
 .btn-x-lg {
     font-size: 25px;
 }
